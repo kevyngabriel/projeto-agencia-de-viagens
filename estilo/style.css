@@ -61,6 +61,7 @@ section a:hover {
 div#fundo{
     position: relative;
 
+    
     background-image: url(../imagens/novobackground.png);
     background-position: center;
     background-size: cover;
@@ -92,3 +93,33 @@ header h1{
 h1 p span.colorido{
     color: var(--color1);
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+        
+
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 255, 42);
+    border: 1px  solid black;
+    border-radius: 10px;
+    
+    font-family: var(--font1);
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    ;
+}
+
+
+
+
