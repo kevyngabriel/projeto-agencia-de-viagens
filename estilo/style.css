@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;600&display=swap');
+
+:root{
+    --color1: #F05600;
+    --color2: #EF9D14;
+    --color3: #005E94;
+    --color4: #167475;
+    --color5: #CDC1AA;
+
+    --font1:'Kalnia', serif;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--color5);
+}
+
+header{
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20vh;
+}
+
+
+section{
+    background-color: var(--color5);
+    width: 100vw;
+    padding: 1vh;
+    display: block;
+    position: absolute ;
+    top: 0vh;
+    left: 0vh;
+
+    text-align: center;
+
+}
+
+section a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5vh;
+    font-size: 18px;
+    font-family: var(--font1);
+}
+
+section a:hover{
+    color: var(--color3);
+    font-size: 22px;
+
+}
+
+header div { 
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+
+    background-size: 100px;
+    padding: 50px;
+
+    display: inline-block;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+}
