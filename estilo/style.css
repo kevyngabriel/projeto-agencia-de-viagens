@@ -120,7 +120,7 @@ h2.box{
 }
 
 h2.box:hover{
-
+    transition: 0.8s;
     border: solid var(--color3) 2px;
     border-radius: 10px;
     box-shadow: var(--color3) 5px 10px 0px;
