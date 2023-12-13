@@ -189,6 +189,10 @@ div.boxdeimg{
     box-shadow: black 0px 2px 10px;
 }
 
+div.boxdeimg:hover{
+    box-shadow: var(--color1) 0px 0px 0px;
+}
+
 div#boximg01{
     background-image: url(../imagens/boxdeimg1.png);
 }
@@ -373,7 +377,7 @@ footer>div#superior{
 
 
 footer p#creditos{
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(15, 15, 15);
     height: 25px;
     display: flex;
     justify-content: center;
@@ -383,6 +387,8 @@ footer p#creditos{
 
     color: white;
     text-align: center;
+
+    letter-spacing: 1px;
 
 }
 
@@ -394,7 +400,9 @@ footer p#creditos>a{
 }
 
 footer p#creditos>a:hover{
-    color: var(--color1);
+    transition: 0.8s;
+    font-size: 17.5px;
+    color: white;
     text-decoration: none;
   }
 
