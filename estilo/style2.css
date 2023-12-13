@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+@font-face {
+    font-family: "Coolvetica, sans-serif";
+    src: url(../fontes/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: "Caviar, sans-serif";
+    src: url(../fontes/CaviarDreams.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+
+:root{
+    --color1: #F05600;
+    --color1b: #f0580080;
+    --color2: #EF9D14;
+    --color3: #005587; --color3b:#0082CE;
+    --color4: #167475;
+    --color5: #CDC1AA;
+
+    --font1:'Kalnia', serif;
+    --font2:'Hedvig Letters Serif', serif;
+    --font3: 'Caviar, sans-serif';
+    --font4: 'Coolvetica, sans-serif';
+    --font5: 'Rajdhani', sans-serif;
+
+}
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image: url(../imagens/backgroungoficial.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+div#logo{
+    padding-top: 6px;
+}
+
+div#menu{
+    margin: auto;
+
+}
+
+#menu>a{
+    font-family: var(--font3);
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 3.5vh;
+    padding-right: 3vw;
+    font-weight: bold;
+}
+
+#menu>a:hover{
+    transition: 0.8s;
+    color: var(--color3);
+    font-size: 3.59vh;
+}
+
+div#container{
+    margin: 12vh;
+
+    font-size: 2.8vh;
+    line-height: 6.1vh;
+
+    color: white;
+    font-family: var(--font2);
+
+    text-shadow: 0px 1px 10px rgb(21, 22, 21) ;
+
+}
+
+h1{
+    font-weight: 100;
+}
+
+h1>span{
+    color: var(--color1);
+    font-weight: 600;
+}
+
+div#botao{
+    position: relative;
+    top: 15vh;
+    margin: 1vh;
+}
+
+a#boton{
+    text-decoration: none;
+}
+
+section#boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#text-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 60px;
+
+    background-color: var(--color1);
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-weight: 700;
+    box-shadow: var(--color1b) 0px 0px 25px;
+
+    color: white;
+    font-family: var(--font3);
+    
+}
+
+div#text-boton:hover{
+    transition: 0.8s;
+    background-color: var(--color3);
+    box-shadow: var(--color3) 0px 0px 0px;
+}
+
+
+div#bottom-boton{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+}
+
+section#blocks{
+    display: flex;
+    justify-content: space-around;
+
+    position: relative;
+    top: 20vh;
+}
+
+h2.box{
+    display: flex;
+    background-color: white;
+    
+    height: 150px;
+    width: 220px;
+
+    border: solid var(--color2) 1px;
+    border-radius: 10px;
+    box-shadow: var(--color1) 5px 10px 0px;
+}
+
+h2.box:hover{
+    transition: 0.8s;
+    border: solid var(--color3) 2px;
+    border-radius: 10px;
+    box-shadow: var(--color3) 5px 10px 0px;
+}
+
+p.inthebox{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font3);
+
+    margin: auto;
+}
+
+
+main{
+    background-color: white;
+    margin-top: 50px ;
+
+    
+}
+
+main>h3{
+    display: flex;
+    justify-content: center;
+
+    font-size: 35px;
+    font-family: var(--font2);
+    margin-bottom: 8vh;
+
+    color: var(--color3);
+
+    letter-spacing: 4px;
+}
+
+
+
+
+div#sequenciadeimagens{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p.boxdeimg{
+    background-color: var(--color3);
+    width: 300px;
+    height: 350px;
+}
+
+div#botton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 70px;
+}
+
+a#botton2{
+    text-decoration: none;
+}
+
+div#text-botton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: var(--color1);
+
+    width: 500px;
+    height: 60px;
+
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: var(--color1b) 0px 0px 25px;
+    font-family: var(--font3);
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer{
+
+    padding:30vh ;
+    background-color: black;
+}
+
+footer>p{
+    color: white;
+    
+}
