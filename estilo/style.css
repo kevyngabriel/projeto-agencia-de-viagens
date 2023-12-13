@@ -19,6 +19,7 @@
 
 :root{
     --color1: #F05600;
+    --color1b: #f0580080;
     --color2: #EF9D14;
     --color3: #005E94; --color3b:#0082CE;
     --color4: #167475;
@@ -44,7 +45,8 @@ header{
     background-image: url(../imagens/backgroungoficial.png);
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    background-attachment: fixed;
+    height: 90vh;
 }
 
 nav{
@@ -80,7 +82,7 @@ div#menu{
 div#container{
     margin: 12vh;
 
-    font-size: 2.2vh;
+    font-size: 2.8vh;
     line-height: 6.1vh;
 
     color: white;
@@ -98,13 +100,62 @@ h1>span{
     color: var(--color1);
     font-weight: 600;
 }
+div#botao{
+    position: relative;
+    top: 15vh;
+}
+
+a#boton{
+    text-decoration: none;
+}
+
+section#boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#text-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 60px;
+
+    background-color: var(--color1);
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-weight: 700;
+    box-shadow: var(--color1b) 0px 0px 25px;
+
+    color: white;
+    font-family: var(--font3);
+    
+}
+
+div#text-boton:hover{
+    transition: 0.8s;
+    background-color: var(--color3);
+    box-shadow: var(--color3) 0px 0px 0px;
+}
+
+
+div#bottom-boton{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+}
 
 section#blocks{
     display: flex;
     justify-content: space-around;
 
     position: relative;
-    top: 7vh;
+    top: 20vh;
 }
 
 h2.box{
@@ -133,4 +184,21 @@ p.inthebox{
     font-family: var(--font3);
 
     margin: auto;
+}
+
+
+
+
+
+
+
+
+footer{
+
+    padding:30vh ;
+    background-color: black;
+}
+
+footer>p{
+    color: white;
 }
