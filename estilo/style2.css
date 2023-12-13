@@ -15,7 +15,7 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root{
     --color1: #F05600;
@@ -28,7 +28,7 @@
     --font2:'Hedvig Letters Serif', serif;
     --font3: 'Caviar, sans-serif';
     --font4: 'Coolvetica, sans-serif';
-    --font5: 'Rajdhani', sans-serif;
+    --font5: 'Anton', sans-serif;
 
 }
 
@@ -166,13 +166,14 @@ main>h2{
     display: flex;
     justify-content: center;
 
-    font-size: 35px;
-    font-family: var(--font2);
+    font-size: 40px;
+    font-family: var(--font5);
+    font-weight: 900;
     margin-bottom: 8vh;
 
     color: var(--color3);
 
-    letter-spacing: 4px;
+    letter-spacing: 0px;
 }
 
 div#sequenciadeimagens{
@@ -180,10 +181,28 @@ div#sequenciadeimagens{
     justify-content: space-evenly;
 }
 
-p.boxdeimg{
+div.boxdeimg{
     background-color: var(--color3);
     width: 300px;
-    height: 350px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: black 0px 2px 10px;
+}
+
+div#boximg01{
+    background-image: url(../imagens/boxdeimg1.png);
+}
+
+div#boximg02{
+    background-image: url(../imagens/boxdeimg2.png);
+}
+
+div#boximg03{
+    background-image: url(../imagens/boxdeimg3.png);
+}
+
+div#boximg04{
+    background-image: url(../imagens/boxdeimg4.png);
 }
 
 div#botton2{
@@ -283,7 +302,7 @@ article{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 110vh;
+    height: 850px;
     color: white;
 }
 
