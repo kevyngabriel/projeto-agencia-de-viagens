@@ -386,3 +386,105 @@ footer p#creditos > a:hover {
 strong#problematico {
   padding-left: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  div.boxdeimg {
+    width: 18vw;
+    height: 48vh;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.boxdeimg {
+    max-width: 20vw;
+    height: 23vh;
+    background-size: cover;
+  }
+
+  main > h2 {
+    font-size: 4.5vw;
+  }
+
+  h3.box {
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  div#logo {
+  }
+
+  #menu > a {
+    font-size: 2.8vh;
+    padding-right: 1.9vw;
+  }
+
+  #menu > a:hover {
+    transition: 0.8s;
+    color: var(--color3);
+    font-size: 2.9vh;
+  }
+
+  div#container {
+    margin-left: 8vh;
+
+    font-size: 2.2vh;
+    line-height: 6.1vh;
+    text-align: center;
+
+    color: white;
+    font-family: var(--font2);
+
+    text-shadow: 0px 1px 5px #111110;
+    border-radius: 10px;
+  }
+
+  div#botao {
+    margin: 0vh;
+
+    margin-top: -14vh;
+    width: 480px;
+  }
+
+  main > h2 {
+    font-size: 4vw;
+    font-weight: 900;
+    margin-bottom: 6vw;
+  }
+
+  main {
+    margin-top: 30px;
+  }
+
+  div.boxdeimg {
+    width: 32vw;
+    height: 24vh;
+    background-size: cover;
+
+    margin-bottom: -20px;
+  }
+
+  article {
+    height: 1000px;
+  }
+
+  div#text-botton2 {
+    width: 420px;
+    margin-bottom: -10px;
+  }
+
+  section#blocks {
+    margin-bottom: 30px;
+  }
+
+  h3.box {
+    width: 24vw;
+    font-size: 15px;
+    font-weight: 900;
+  }
+}
