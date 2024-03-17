@@ -25,7 +25,7 @@ Telas Grandes: mais 1200px
   --font5: "Anton", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   nav > span#burger {
     display: block;
     font-size: 2em;
