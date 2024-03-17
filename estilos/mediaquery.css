@@ -25,7 +25,7 @@ Telas Grandes: mais 1200px
   --font5: "Anton", sans-serif;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 864px) {
   nav > span#burger {
     display: block;
     font-size: 2em;
@@ -122,5 +122,70 @@ Telas Grandes: mais 1200px
   article > div#background2 > p.article {
     font-size: 15px;
     padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 864px) and (max-width: 1200px) {
+  nav > span#burger {
+    display: block;
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  nav > span#burger:hover {
+    color: #f05600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  nav > div {
+    display: none;
+  }
+
+  nav > div#menu > a {
+    font-size: 2em;
+  }
+
+  div#container > img#desktop {
+    display: flex;
+  }
+
+  div#container > h1 {
+    font-size: 1.2em;
+    translate: 0% -180%;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 40px;
+  }
+
+  div#container > h1 > br.br {
+    display: none;
+  }
+
+  div#botao {
+    top: 5vh;
+  }
+
+  main > h2 {
+    font-size: 1.5em;
+    margin-top: 10vh;
+    margin-bottom: 0%;
+  }
+
+  main > div#sequenciadeimagens > div.boxdeimg > img {
+    display: none;
+  }
+
+  div#text-botton2 {
+    display: none;
+  }
+
+  div#botton2 {
+    margin-top: 0px;
+  }
+
+  main {
+    margin-top: -450px;
   }
 }
