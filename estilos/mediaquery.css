@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Devices Breakpois
+
+Celular: até 600px
+Telas Médias: 600px até 992px
+Computadores: 992px até 1200px
+Telas Grandes: mais 1200px 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+:root {
+  --color1: #f05600;
+  --color1b: #f0580080;
+  --color2: #ef9d14;
+  --color3: #081366;
+  --color3b: #0082ce;
+  --color4: #0081cb72;
+
+  --font1: "Kalnia", serif;
+  --font2: "Hedvig Letters Serif", serif;
+  --font3: "Caviar, sans-serif";
+  --font4: "Coolvetica, sans-serif";
+  --font5: "Anton", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  nav > span#burger {
+    display: block;
+    font-size: 2em;
+    padding: 5px 10px;
+  }
+
+  nav > span#burger:hover {
+    color: #f05600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  nav > div {
+    display: none;
+  }
+
+  nav > div#menu > a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+
+  div#container {
+    margin: 10vw 12vh;
+    font-size: 1em;
+  }
+
+  div#container > h1 > br.br {
+    display: none;
+  }
+
+  div#botao {
+    top: 5vh;
+  }
+}
